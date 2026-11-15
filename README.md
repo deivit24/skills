@@ -30,7 +30,7 @@ So I want a workflow where I can use AI, keep learning, keep my productivity, an
 
 | Skill | What it does |
 |---|---|
-| [keep-sharp](keep-sharp/SKILL.md) | A hybrid learn-while-coding mode. **You** write the core logic. AI gives hints and terse critiques. AI writes only boilerplate. |
+| [keep-sharp](skills/keep-sharp/SKILL.md) | A hybrid learn-while-coding mode. **You** write the core logic. AI gives hints and terse critiques. AI writes only boilerplate. |
 
 ### keep-sharp in short
 
@@ -55,11 +55,11 @@ When you're writing Python, it also leans on the `python-design-patterns` skill 
 With [skills.sh](https://skills.sh):
 
 ```bash
-npx skills add <github-user>/skills
+npx skills add deivit24/skills --skill keep-sharp
 ```
 
 Or manually: clone this repo and run `./install.sh`, which symlinks each skill into `~/.claude/skills/`. Edits in the repo apply immediately.
 
 ## Adding skills
 
-Each skill lives in its own top-level folder with a `SKILL.md` that has `name` and `description` frontmatter. Add a row to the table above, then run `./install.sh`.
+Each skill lives in its own folder under `skills/` with a `SKILL.md` that has `name` and `description` frontmatter. Add a row to the table above, then run `./install.sh`.
