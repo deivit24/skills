@@ -1,2 +1,7 @@
+# Track only skills I wrote; ignore everything else (plugin/tool-managed skills)
+*
+!.gitignore
+!README.md
+!keep-sharp/
+!keep-sharp/**
 .DS_Store
-*.bak
